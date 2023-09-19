@@ -1,0 +1,27 @@
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:40px;
+}
+
+p {
+    display: inline;
+}
+
+section{
+    height: 80vh;
+}
+
+@media  (min-width: 0px) and (max-width: 320px)  
+{
+    h2 {
+        font-size:25px;
+    } 
+}
+
+@media  (min-width: 321px)and (max-width: 480px) 
+{
+    h2 {
+        font-size:30px;
+    }   
+}

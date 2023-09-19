@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+ body{
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+ }
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+
+ .spanComponent {
+   border: solid 2px white;
+   width: 100px;
+   display: inline-block;
+   margin-bottom: 3px;
+   align-self: center;
+}
+
+section {
+   background-color: #1abc9c;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}

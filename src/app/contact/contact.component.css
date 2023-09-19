@@ -1,0 +1,86 @@
+span {
+    border: solid 2px black;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    color: #1abc9c;
+    position: relative;
+    
+}
+
+
+input:focus {
+    outline: 0;
+    border: 0;
+}
+
+div.container {
+    width: 50%;
+}
+
+.slide-up{
+    animation: slideUp 1s ;
+    position: relative;
+    opacity: 1;
+   
+}
+
+@keyframes slideUp {
+
+    0%{
+        top: 30px;
+    }
+    100%{
+      
+        top: 0;
+    } 
+}
+
+
+section {
+    background-color: white;
+    color: #212529;
+    justify-content: start;
+    padding-bottom: 170px;
+}
+
+button {
+    background-color: #1abc9c;
+    color: white;
+    padding: 10px 15px;
+}
+
+button:focus {
+    padding: 9px 14px;
+}
+
+@media (min-width: 0px) and (max-width: 320px) {
+    h2 {
+        font-size: 25px;
+    }
+    div.container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 321px)and (max-width: 480px) {
+    h2 {
+        font-size: 30px;
+    }
+    div.container {
+        width: 95%;
+    }
+}
+@media (min-width: 481px)and (max-width: 1000px) {
+  
+    div.container {
+        width: 95%;
+    }
+}

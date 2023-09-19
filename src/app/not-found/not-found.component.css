@@ -1,0 +1,25 @@
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+div{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    height: 100vh;
+    padding-top: 100px;
+    z-index: 555555555;
+}
+
+i{
+    font-size: 50px;
+}

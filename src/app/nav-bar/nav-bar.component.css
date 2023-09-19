@@ -1,0 +1,37 @@
+.navBarBgColor{
+background-color: #2c3e50;
+}
+
+.bgActive{
+    background-color: #1abc9c;
+}
+
+.navBarBgColor  a{
+color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 19px;
+display: inline-block;
+}
+
+.container >a{
+    font-size: 35px;
+}
+
+
+
+@media  (min-width: 0px) and (max-width: 320px)  
+{
+    .container >a{
+        font-size: 20px;
+    }
+}
+
+
+@media  (min-width: 321px)and (max-width: 480px) 
+{
+    .container >a{
+        font-size: 25px;
+    } 
+}
+
+

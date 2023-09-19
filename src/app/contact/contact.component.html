@@ -1,0 +1,36 @@
+<section>
+    <div>
+        <h2 class="my-4 text-center">CONATCT SECTION</h2>
+        <div class="text-center">
+            <span class="me-3 spanComponent"></span>
+            <i class="fa-solid fa-star"></i>
+            <span class="ms-3 spanComponent"></span>
+        </div>
+    </div>
+    <form class="mt-3">
+        <div class="container">
+            <div>
+                <label [ngClass]="{'slide-up':labelval}" [ngStyle]="{'opacity':labelval !=''?'1':'0'}" for="userName">userName :</label>
+                <input id="userName" (keyup)="label1($event)" placeholder="userName" type="text"
+                    class="w-100 mt-3  border-0 ">
+                <hr>
+            </div>
+            <div>
+                <label for="usrAge" [ngClass]="{'slide-up':labelval1}" [ngStyle]="{'opacity':labelval1 !=''?'1':'0'}">usrAge :</label>
+                <input id="usrAge" (keyup)="label2($event)"  placeholder="usrAge" type="number" class="w-100 mt-3  border-0 ">
+                <hr>
+            </div>
+            <div>
+                <label for="userEmail" [ngClass]="{'slide-up':labelval2}"  [ngStyle]="{'opacity':labelval2 !=''?'1':'0'}">userEmail :</label>
+                <input id="userEmail" (keyup)="label3($event)" placeholder="userEmail" type="email" class="w-100 mt-3  border-0 ">
+                <hr>
+            </div>
+            <div>
+                <label for="userPassword" [ngClass]="{'slide-up':labelval3}" [ngStyle]="{'opacity':labelval3 !=''?'1':'0'}">userPassword :</label>
+                <input id="userPassword" (keyup)="label4($event)" placeholder="userPassword" type="password" class="w-100 mt-3  border-0 ">
+                <hr>
+            </div>
+            <button class="border-0 rounded mt-2">send message</button>
+        </div>
+    </form>
+</section>

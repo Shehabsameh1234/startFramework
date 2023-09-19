@@ -1,0 +1,67 @@
+<div>
+    <h2 class="my-4 text-center">PORTFOLIO COMPONENT</h2>
+    <div class="text-center">
+        <span class="me-3 spanComponent"></span>
+        <i class="fa-solid fa-star"></i>
+        <span class="ms-3 spanComponent"></span>
+    </div>
+</div>
+
+<div class="container" >
+    <div class="row g-0 text-center" >
+        <div class="col-lg-4 col-md-6 col-12 p-4 ">
+            <div class="position-relative  "  (click)="openDisplay($event)"> 
+                <img  src="assets/img/poert1.png" class="w-100 rounded" alt="">
+                <div id="assets/img/poert1.png" class="layer w-100 h-100  ">
+                    <i id="assets/img/poert1.png" class="fa-solid fa-plus"></i>
+                </div>
+            </div> 
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 p-4  " >
+            <div class="position-relative  "  (click)="openDisplay($event)"> 
+                <img src="assets/img/port2.png" class="w-100 rounded" alt="">
+                <div id="assets/img/port2.png" class="layer w-100 h-100  ">
+                    <i id="assets/img/port2.png" class="fa-solid fa-plus"></i>
+                </div>
+            </div> 
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 p-4  " >
+            <div class="position-relative  "  (click)="openDisplay($event)"> 
+                <img src="assets/img/port3.png" class="w-100 rounded" alt="">
+                <div id="assets/img/port3.png" class="layer w-100 h-100  ">
+                    <i id="assets/img/port3.png" class="fa-solid fa-plus"></i>
+                </div>
+            </div> 
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 p-4  " >
+            <div class="position-relative  "  (click)="openDisplay($event)"> 
+                <img src="assets/img/poert1.png" class="w-100 rounded" alt="">
+                <div id="assets/img/poert1.png" class="layer w-100 h-100  ">
+                    <i id="assets/img/poert1.png" class="fa-solid fa-plus"></i>
+                </div>
+            </div> 
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 p-4  ">
+            <div class="position-relative  "  (click)="openDisplay($event)"> 
+                <img src="assets/img/port2.png" class="w-100 rounded" alt="">
+                <div id="assets/img/port2.png" class="layer w-100 h-100  ">
+                    <i id="assets/img/port2.png" class="fa-solid fa-plus"></i>
+                </div>
+            </div> 
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 p-4  " >
+            <div class="position-relative  " (click)="openDisplay($event)"> 
+                <img src="assets/img/port3.png" class="w-100 rounded" alt="">
+                <div id="assets/img/port3.png" class="layer w-100 h-100  ">
+                    <i id="assets/img/port3.png" class="fa-solid fa-plus"></i>
+                </div>
+            </div> 
+        </div>
+    </div>
+</div>
+
+<div id="display" (click)="closeDisplay($event)" class="display d-none  " >
+    <img id="imgDisplay" [src]="getSrc"   alt="">
+</div>
+
+

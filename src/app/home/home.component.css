@@ -1,0 +1,22 @@
+img{
+    width:150px;
+    background-color: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+   align-self: center;
+}
+
+h2{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+   font-size: 40px;
+}
+p{
+    display: inline;
+}
+section{
+    height: 80vh;
+}
+
