@@ -8,8 +8,8 @@ p {
     display: inline;
 }
 
-section{
-    height: 80vh;
+div.padding{
+    padding: 220px 0;
 }
 
 @media  (min-width: 0px) and (max-width: 320px)  

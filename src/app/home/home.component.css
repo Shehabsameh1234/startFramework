@@ -16,7 +16,9 @@ h2{
 p{
     display: inline;
 }
-section{
-    height: 80vh;
+
+
+div.padding{
+    padding: 200px 0;
 }
 
